@@ -1,0 +1,46 @@
+body{
+    background: #f7f7ff;
+   
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: .25rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
+    padding: 15px;;
+}
+.me-2 {
+    margin-right: .5rem!important;
+}
+
+.mid {
+    scrollbar-gutter: stable both-edges;
+    overflow: auto;
+    width: 71% !important;
+    height: 517px;
+}
+
+.d-flex.flex-column.align-items-center.text-center {
+    margin-top: 5px;
+}
+
+.card-body.rightSide {
+    width: 525px;
+    padding: 15px 25px 10px 25px;
+}
+
+.row.mb-3.allInput {
+    margin-bottom: 25px;
+}
+
+h4 {
+    font-weight: bold;
+    color: #970505;
+}

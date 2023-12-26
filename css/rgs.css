@@ -1,0 +1,146 @@
+  
+    audio {
+        display: none;
+    }
+
+    .container{
+        padding: 15px;
+        border-radius: 10px;
+        max-width: 900px;
+        margin: auto;
+        position: relative;
+        top: 30px;
+        box-shadow: 0 4px 8px 0 white;
+        transition: 0.1s;
+    }
+
+    p, a {
+        font-size: 16px;
+        color: #fff;
+        text-decoration: none;
+    }
+ 
+    h2 {
+        text-align: center;
+        color: white;
+        font-size: 35px;
+        text-shadow: 2px 2px 4px #fff;
+        margin-top: 25px;
+    }
+
+    label.form-label {
+    color: #fff;
+    }
+    @media screen and (min-width: 1200px) {
+        .container{
+            width: 800px;
+            transition: 0.1s;
+        }
+}
+
+@media screen and (min-width: 400px) {
+        .container{
+            width: 400px;
+            transition: 0.1s;
+        }
+}
+
+@media screen and (min-width: 750px) {
+        .container{
+            width: 700px;
+            transition: 0.1s;
+        }
+}
+
+.container {
+    position: relative;
+    top: 75px;
+}
+
+
+.left {
+    width: 50%;
+    float: left;
+}
+
+input#inp {
+    height: 35px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    border: 1px solid wheat;
+    background: transparent;
+}
+
+input#email {
+    position: relative;
+    left: 68px;
+    height: 35px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    border: 1px solid wheat;
+    background: transparent;
+}
+
+input#lstnm {
+    position: relative;
+    left: 34px;
+    height: 35px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    border: 1px solid wheat;
+    background: transparent;
+}
+
+input#fnm {
+    position: relative;
+    left: 5px;
+    height: 35px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    border: 1px solid wheat;
+    background: transparent;
+}
+
+input#sid {
+    position: relative;
+    left: 32px;
+    height: 35px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    border: 1px solid wheat;
+    background: transparent;
+}
+
+input#fsnm {
+    position: relative;
+    left: 32px;
+    height: 35px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    border: 1px solid wheat;
+    background: transparent;
+}
+
+input#adrs {
+    position: relative;
+    left: 50px;
+    height: 35px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    border: 1px solid wheat;
+    background: transparent;
+}
+
+input#dpt {
+    position: relative;
+    left:  18px;
+    height: 35px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    border: 1px solid wheat;
+    background: transparent;
+}
+
+label {
+    color: #fff;
+}

@@ -1,0 +1,256 @@
+
+
+body{
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+/* Top Styles */
+
+#top{
+    background: #000;
+    padding: 10px 0;
+}
+#top .offer{
+    color: #ffffff;
+}
+.offer a:hover{
+    text-decoration: none;
+    border: 1px solid red;
+}
+
+a.btn.btn-success.btn-sm {
+    background-color: red;
+}
+button.navbar-toggle {
+    background-color: red;
+    color: #fff;
+}
+
+button.btn.btn-primary.navbar-btn {
+    background-color: red;
+}
+
+a.btn.navbar-btn.btn-primary.right {
+    background-color: red;
+}
+
+#top .offer .btn{
+    text-transform: uppercase;
+}
+@media(max-width: 991px){
+    #top .offer{
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 991px){
+    #top{
+        font-size: 12px;
+        text-align: center;
+    }
+}
+#top a{
+    color: #ffffff;
+}
+#top ul.menu{
+    padding-top: 5px;
+    margin: 0px;
+    text-align: right;
+    font-size: 12px;
+    list-style: none;
+}
+@media(max-width: 991px){
+    #top ul.menu{
+        text-align: center;
+    }
+}
+#top ul.menu > li{
+    display: inline-block;
+}
+#top ul.menu > li a{
+    color: #eeeeee;
+}
+#top ul.menu > li + li:before{
+    content: "|\00a0";
+    color: #f7f7f7;
+    padding: 0 5px;
+}
+
+
+.navbar{
+    background: #ffffff;
+}
+.navbar-collapse .right{
+    float: right;
+}
+.navbar-brand{
+    float: left;
+    padding: 10px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    height: 70px;
+}
+.navbar-brand:hover,
+.navbar-brand:focus{
+    text-decoration: none;
+}
+.navbar ul.nav > li > a{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+.navbar ul.nav > li > a:hover{
+    background: #e7e7e7;
+}
+.padding-nav{
+    padding-top: 10px;
+}
+.btn-primary{
+    color: rgb(255, 255, 255);
+    background: rgb(79, 191, 168);
+    border-color: rgb(65, 179, 156);
+}
+#search .navbar-form{
+    float: right;
+}
+#search{
+    clear: both;
+    border-top: solid 1px #9adacd;
+    text-align: right;
+}
+#search .navbar-form .input-group{
+    display: table;
+}
+#search .navbar-form .input-group .form-control{
+    width: 100%;
+}
+
+
+section{
+    background-color: rgb(236, 226, 226);
+    padding: 50px 0px;
+}
+
+.about, .service .skills .teams, .contact, footer{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+section#skills {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.about .about-content, .service .serv-content, .skills .skills-content, .contact-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+section .title::before{
+    /* content: ""; */
+    position: absolute;
+    width: 180px;
+    bottom: 0px;
+    left: 50%;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+
+section .title::after{
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    font-size: 20px;
+    color: red;
+    padding: 5px;
+    background-color: rgb(236, 226, 226);
+    transform: translateX(-50%);
+}
+
+
+
+.about .about-content .left{
+    width: 45%;
+}
+
+.about .about-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.about .about-content .right{
+    width: 55%;
+    text-align: justify;
+   
+}
+
+.about .about-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about .about-content .right .text span{
+    color: red;
+}
+
+.about .about-content .right a{
+    display: inline-block;
+    background-color: red;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid red;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+.about .about-content .right a:hover{
+    color: red;
+    background: none;
+}
+
+.text2::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(6, 5, 5);
+    border-left: 2px solid blue;
+    animation: animate 4s steps(12) infinite;
+   
+}
+
+@keyframes animate{
+    40%, 60%{
+        left: 100%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+
+
+
+
+

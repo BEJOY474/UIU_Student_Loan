@@ -1,0 +1,368 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.same-height-row {
+    padding-top: 75px;
+    padding-bottom: 100px;
+    height: 70vh;
+}
+
+#advantage .container h2.title {
+    color: #fff;
+    padding-top: 30px;
+}
+
+#advantage{
+    text-align: center;
+}
+
+#advantage .box{
+    background-color: #ffffff;
+    margin: 0 0 30px;
+    box-sizing: border-box;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 5px;
+    transition:all .4s ease;
+    box-shadow: 0px 2px 5px rgba(223, 213, 213, 0.3);
+} 
+
+#advantage .box .icon{
+    position: relative;
+    font-size: 70px;
+    width: 100%;
+    text-align: center;
+    top: -20px;
+    left: 0px;
+    height: 100%;
+    float: left;
+    color: red;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+#advantage .box h3{
+    position: relative;
+    margin: 0 0 20px;
+    font-weight: 300;
+     z-index: 2;
+
+}
+#advantage .box p{
+ color: #fff;
+ font-weight: 500;
+ text-decoration: none;
+}
+
+#advantage .box h3 a{
+    color:#fff ;
+    font-weight: 800;
+    text-decoration: none;
+
+}
+
+
+#advantage .box h3 a:hover{
+   text-decoration: none;
+    
+}
+
+
+
+
+#advantage .box p{
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+
+#advantage .box:hover{
+    background-color: red;
+    color: #fff;
+    transition: 0.1s;
+    transform: scale(1.05);
+}
+
+#advantage .box:hover .icon{
+   
+    color: #fff;
+   
+}
+#hot{
+   
+background-color: rgb(236, 226, 226);
+ 
+}
+
+.box_h{
+    background-color:  rgb(236, 226, 226);;
+    margin: 0 0 30px;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 5px;
+    transition:all .4s ease;
+   
+}
+
+#hot h2{
+    font-size: 36px;
+    font-weight:400 ;
+    color: red;
+    text-align: center;
+}
+#outerContent {
+    background-color: rgb(236, 226, 226);
+    position: relative;
+    top: 120px;
+}
+
+.product {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+.headPhnsection {
+    background-color: black;
+    text-align: center;
+    transition:all 0.1s ease;
+}
+
+
+.col-md-12.headTitle {
+    margin-top: 58px;
+    color: red;
+}
+
+.text a:hover{
+    text-decoration: none;
+}
+
+.headphnSlid{
+    background-color: #222;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.headphnSlid a img{
+    border: 3px solid red;
+    border-radius: 50px;
+}
+
+.t_x h3 a{
+    color: #fff;
+}
+
+.t_x p{
+    color: #fff;
+}
+
+.headphnSlid:hover{
+    background-color: red;
+    transition: 0.2s;
+}
+ 
+
+
+
+
+
+
+
+section#contact {
+    position: relative;
+    top: 40px;
+}
+
+.max-width.container {
+    height: 510px;
+}
+
+
+.contact .contact-content .column{
+    width: calc(50% - 30px);
+}
+
+.contact .contact-content .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contact .contact-content .left p{
+    text-align: justify;
+}
+
+.contact .contact-content .left .icon{
+    margin: 10px 0;
+}
+
+.contact .contact-content .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+
+.contact .contact-content .row .info{
+    margin-left: 30px;
+}
+
+.contact .contact-content .row i{
+    font-size: 25px;
+    color: red;
+}
+
+.contact .contact-content .info .head{
+    font-weight: 500;
+}
+
+.contact .contact-content .info .sub-title{
+    color: #333;
+}
+
+.contact .right form .fields{
+    display: flex;
+}
+
+
+.contact .right form .field, .contact .right form .fields{
+   height: 45px;
+   width: 100%;
+   margin-bottom: 15px;
+}
+
+.contact .right form .name{
+    margin-right: 10px;    
+}
+
+.contact .right form .email{
+    margin-left: 10px;    
+}
+
+.contact .right form .textarea{
+    height: 80px; 
+    width: 100%;  
+}
+
+.contact .right form .field input, .contact .right form .textarea textarea{
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    outline: none;
+    font-size: 17px;
+    padding: 0 15px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.contact .right form .textarea textarea{
+    padding-top: 10px;
+    resize: none;
+}
+
+.contact .right form .button{
+    height: 47px;
+    width: 170px;
+}
+
+.contact .right form .button button{
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+    background: red;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.contact .right form .button button:hover{
+    color: red;
+    background: none;
+}
+
+
+iframe.map {
+    width: 100%;
+    height: 295px;
+}
+
+
+.breadcrumb{
+   padding: 8px 15px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   background-color: #ffffff;
+   border-radius: 5px;
+   box-shadow: 0px 1px 5px rgba(0, 0, 0,.5); 
+}
+
+.breadcrumb> li + li::before{
+    content: ">\00a0";
+    color: #cccccc;
+
+}
+.content {
+    position: relative;
+    top: -20px;
+    padding-bottom: 30px;
+}
+
+@media(max-width:991px){
+    .breadcrumb{
+        padding: 8px 0px;
+        text-align: center;
+    }
+}
+
+
+.content .panel.sidebar-menu{
+    box-sizing:border-box ;
+    box-shadow: 0px 1px 5px rgb(0, 0, 0, .2);
+}
+
+.content .panel.sidebar-menu ul.nav.category-menu{
+    margin-bottom: 20px;
+}
+
+.content .panel.sidebar-menu ul.nav.category-menu li a{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.content .panel.sidebar-menu h3{
+    padding: 5px 0px;
+    margin: 0px;
+}
+#advantage {
+    text-align: center;
+    height: 168vh;
+}
+
+@media (min-width: 890px){
+section#about {
+  
+    max-height: 630px;
+}
+
+#advantage {
+    text-align: center;
+    max-height: 540px;
+}
+}
+
+div#content {
+    position: relative;
+    top: -20px;
+   }
+
+section.donation {
+    background: #000;
+    color: white;
+}

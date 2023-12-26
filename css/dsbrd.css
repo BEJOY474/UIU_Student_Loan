@@ -1,0 +1,470 @@
+.ul .li .ulIn .liIn {
+    display: block;
+}
+
+.ul .li .ulIn {
+    width: 100%;
+    background: #22438C;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+.ul .li:hover .ulIn {
+    display: block;
+    background: #fff5f5;
+    color: #FFF;
+
+}
+
+p.st_loan {
+    color: #1518c5;
+    font-weight: bold;
+}
+
+p.u_name.take_usnm {
+    color: #684602;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p.st_loan.take_ln {
+    color: #240c0c;
+}
+
+
+
+span.btn.btn-danger.accept {
+    float: right;
+    background: #c1d3c1;
+    color: #fff;
+    transition: 0.4s;
+}
+
+span.btn.btn-danger.accept:hover {
+
+    background: transparent;
+    color: #746ec5;
+    transition: 0.4s;
+}
+
+span.btn.btn-danger.accept a {
+    color: #000;
+}
+
+span.btn.btn-danger.accept a:hover {
+    text-decoration: none;
+    color: #000;
+    transition: 0.5s;
+
+}
+
+span.btn.btn-danger.details {
+    background: #c1d3c1;
+    transition: 0.4s;
+}
+
+span.btn.btn-danger.details a {
+    color: #000;
+}
+
+span.btn.btn-danger.details a:hover {
+    text-decoration: none;
+    color: #000;
+    transition: 0.5s;
+
+}
+
+
+span.btn.btn-danger.details:hover {
+
+    background: transparent;
+    color: #746ec5;
+    transition: 0.4s;
+}
+
+.right-sidebar .imp-links a {
+    font-size: 14px;
+}
+
+p.u_name {
+    font-size: 18px;
+    color: #301803fa;
+    font-weight: bold;
+}
+
+.post-input-container p {
+    color: #b93434;
+    font-weight: 600;
+    font-size: 13.5px;
+}
+
+hr.psthr {
+    background: #00000030;
+    height: 1px;
+}
+
+.post-input-container p {
+    line-height: 13px;
+}
+
+hr.hrBr {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #0a0a0a;
+    overflow-x: hidden;
+    background: #d5d3d3;
+}
+
+p.note {
+    text-align: center;
+    font-size: 12px;
+}
+
+.text h3 a {
+    position: relative;
+    top: -10px;
+}
+
+
+#navbar {
+    border-radius: 0px !important;
+}
+
+marquee {
+    padding: 10px;
+    font-size: 30px;
+    font-family: cursive;
+    color: red;
+    cursor: pointer;
+}
+
+.offer a:hover {
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+
+
+.text.text2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    border-left: 2px solid blue;
+    animation: animate 4s steps(12) infinite;
+
+}
+
+@keyframes animate {
+
+    40%,
+    60% {
+        left: 100%;
+    }
+
+    100% {
+        left: 0%;
+    }
+}
+
+.about .about-content .right a {
+    display: inline-block;
+    background-color: red;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid red;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+
+@media (min-width:450px) {
+    .max-width {
+        padding: 0 23px;
+    }
+
+    .about .about-content .right {
+        padding-top: 10px;
+        width: 100%;
+        text-align: justify;
+        justify-content: center;
+    }
+
+    .about .about-content .left {
+        width: 100%;
+    }
+
+    .about .about-content .left img {
+        width: 100%;
+
+    }
+
+    .same-height-row :last-child {
+        padding-bottom: 20px;
+    }
+
+
+    .col-md-12.headPhnTitleHeader h2 {
+        padding-top: 70px;
+        color: #fff;
+    }
+
+
+}
+
+
+
+@media (min-width: 890px) {
+    .about .about-content .left {
+        width: 45%;
+    }
+
+    .about .about-content .right {
+        width: 50%;
+        text-align: justify;
+        justify-content: center;
+    }
+
+    .col-md-12.headPhnTitleHeader h2 {
+        padding-top: 70px;
+        color: #fff;
+    }
+
+}
+
+.slick-prev:before {
+    content: '←';
+    color: red;
+    font-size: 25px;
+}
+
+.slick-next:before {
+    content: '→';
+    color: red;
+    font-size: 25px;
+}
+
+#outerContent {
+    background-color: rgb(236, 226, 226);
+    position: relative;
+    top: 50px;
+    height: 660px;
+}
+
+.headPhnsection {
+    /* background-color: black; */
+    text-align: center;
+}
+
+.col-md-12.headPhnTitleHeader {
+    /* margin-top: 60px; */
+    color: #fff;
+}
+
+
+
+.product {
+    background-color: #fff;
+    padding: 0px;
+    text-align: center;
+    border-radius: 5px;
+    /* width: 350px;
+                    height: 420px; */
+}
+
+
+div#content\ headPhnSec {
+    background-color: black !important;
+}
+
+.headTitle {
+    text-align: center;
+    background-color: black;
+}
+
+section#outerContent\ hpnSen {
+    background-color: black;
+}
+
+.box_h.box_h2 {
+    background-color: black;
+}
+
+.box_h {
+    background-color: rgb(236, 226, 226);
+    
+    margin: 0 0 30px;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all .4s ease;
+
+}
+
+.headphnSlid {
+    background-color: #222;
+}
+
+.home img {
+    width: 50px;
+    border-radius: 13px;
+}
+
+section .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 0vh;
+}
+
+section#about {
+    height: 140vh;
+}
+
+#top ul.menu>li a:hover {
+    color: red;
+    text-decoration: none;
+
+    transition: 0.4s;
+
+}
+
+
+.mid {
+    scrollbar-gutter: stable both-edges;
+    overflow: auto;
+    width: 50% !important;
+    height: 516px;
+    background: aliceblue !important;
+}
+
+.mid2 {
+    scrollbar-gutter: stable both-edges;
+    overflow: auto;
+    width: 23% !important;
+    height: 520px;
+    background: #c7d5e1 !important;
+}
+
+.mid2 p {
+    text-align: center;
+    background: red;
+    font-size: 22px;
+    padding: 10px;
+    color: #fff;
+}
+
+p.dashTextLine {
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.headTxt {
+    background: red;
+    height: 60px;
+    margin-left: -4px;
+}
+
+
+.dsbrdTop {
+    display: inline-flex;
+    background: antiquewhite;
+    border: 1px solid #00000021;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    width: 666px;
+}
+
+.mySelf img {
+    width: 160px;
+}
+.takeLoanDtls img {
+    width: 160px;
+}
+
+
+
+.arroe img {
+    width: 100px;
+    height: 72px;
+}
+
+.arroe {
+    width: 390px;
+    height: 190px;
+    position: relative;
+    top: 65px;
+}
+
+p.proLoneTxt {
+    font-family: cursive;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+p.proLoneRun {
+    font-family: cursive;
+    font-size: 14px;
+    margin-top: 7px;
+}
+
+p.proLoanInfoNm {
+    font-family: cursive;
+    font-size: 21px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: #0505d5;
+}
+
+p.proLoanInfoId {
+    font-family: cursive;
+    font-size: 16px;
+    margin-top: 5px;
+    color: #000000b5;
+}
+
+p.taLoanInfoNm {
+    font-family: cursive;
+    font-size: 21px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: #be5703;
+}
+
+p.taLoanInfoId {
+    font-family: cursive;
+    font-size: 16px;
+    margin-top: 5px;
+    color: #662424b5;
+}
+
+.right-sidebar {
+    scrollbar-gutter: stable both-edges;
+    overflow: auto;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    margin-left: 11px;
+  
+    margin-top: 5px;
+}
